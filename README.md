@@ -1,6 +1,8 @@
 # network-monitor-
 displays your network up and down along with CPU and RAM usage
 
+<img width="294" height="54" alt="image" src="https://github.com/user-attachments/assets/1d58ab19-e37a-4411-8904-02371e646a52" />
+
 Lightweight Taskbar System Monitor
 A ultra-minimalist, transparent system monitor that sits directly on your Windows taskbar. Built with Python for performance and privacy.
 
