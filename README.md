@@ -18,7 +18,7 @@ I decided to "vibe code" my own solution. This script is transparent, stays exac
 Features
 Zero-Glow Transparency: Blends perfectly into the Windows 10/11 taskbar.
 
-Minimalist Stats: Tracks CPU %, RAM %, and real-time Network Upload/Download speeds (in Mbps).
+Minimalist Stats: Tracks total CPU %, the busiest logical processor (T0–T11) and its utilization, RAM %, and real-time Network Upload/Download speeds (in Mbps).
 
 Vertical Stack: Designed to stay within the height of the taskbar so it doesn't block other UI elements.
 
@@ -32,9 +32,9 @@ pip install psutil
 Setup & Installation
 Download the script: Download taskbar_monitor.pyw.
 
-Find your coordinates: * Open the script and look for the line: self.root.geometry("300x45+1511+1111").
+Find your coordinates: * Open the script and look for the line: self.root.geometry("300x45+1620+1111").
 
-Change 1511 and 1111 to match your screen resolution and desired taskbar location.
+Change 1620 and 1111 to match your screen resolution and desired taskbar location.
 
 Run it: Double-click taskbar_monitor.pyw.
 
